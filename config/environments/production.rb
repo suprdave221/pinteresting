@@ -76,7 +76,7 @@ Rails.application.configure do
 
   # Required for Heroku
   # NOTE: set this to acutal host name
-  config.action_mailer.default_url_options = { :host => 'superdave123.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'http://superdave123.herokuapp.com/' }
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
