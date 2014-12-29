@@ -20,7 +20,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'bootstrap-sass'
-gem 'devise', '~>3.4.1'
+gem 'devise', '~> 3.4.1'
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 group :development, :test do
      gem 'sqlite3'
